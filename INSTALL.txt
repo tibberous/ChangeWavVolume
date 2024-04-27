@@ -1,0 +1,49 @@
+################################################################################
+# This script requires Python the ffmpeg and pydub libraries. For use on windows
+# the Choclatey package manager is reccomend.
+# See additionally:
+# https://stackoverflow.com/questions/78388483/getting-warning-while-trying-to-change-the-volume-of-a-wav-file-in-python-on-win
+#
+# For instalation on Windows:
+#
+# This script requires Python 3.12.2 or greater and Chocolatey Package Manager
+# for windows.
+#
+# # Install Chocolatey - https://chocolatey.org/install
+#
+# 1. Click on Searcg, type in PowerShell, right click on Windows Powershell, and
+# select "Run as Administrator".
+# 2. In the PowerShell Window, run the command:
+#
+#    Set-ExecutionPolicy Bypass -Scope Process
+#
+# 3. Press A to accept the security warning that appears.
+# 4. Run the command:
+#
+#    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+#
+# You should get a message that reads: Chocolatey (choco.exe) is now ready.
+# 5. Type 'choco' in the PowerShell window and press enter. You should get:
+#
+# Chocolatey v2.2.2
+# Please run 'choco -?' or 'choco <command> -?' for help menu.
+#
+# # Install Python with Chocolatey
+#
+# 6. Run the command:
+#    choco install python
+#
+# 7. If you receive the message:
+#    Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint):
+# Type A and hit enter.
+#
+# 8. Go to Start > Run, type cmd and hit enter.
+# 9. Type python -V and press enter.
+# 10.You should receive a message that reads: Python 3.12.3
+#
+#
+# Install Chocolatey as Administrator:
+# https://community.chocolatey.org/courses/installation/installing
+#
+# 
+################################################################################
