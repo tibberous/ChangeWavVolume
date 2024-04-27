@@ -8,10 +8,10 @@
 # doctrine of fair use. Any copyright complaints may be directed to:
 # trenttompkins@gmail.com.
 #
-# This code is released without cost and without support and without any
-# without and warranty of any kind. The author/distributor takes no responsi-
-# bility for any damage that may arise from its usage and does not guarantee
-# its serviceability for any purpose, expressed or implied.
+# This code is released without cost and without support or warranty of any
+# kind. The author/distributor takes no responsibility for any damage that may
+# arise from its usage and does not guarantee its serviceability for any purpose,
+# expressed or implied.
 #
 # For educational use only.
 #
