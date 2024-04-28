@@ -9,9 +9,10 @@
 # This script requires Python 3.12.2 or greater and Chocolatey Package Manager
 # for windows.
 #
-# # Install Chocolatey - https://chocolatey.org/install
+# # Install Chocolatey as Administrator: - https://chocolatey.org/install
+# https://community.chocolatey.org/courses/installation/installing
 #
-# 1. Click on Searcg, type in PowerShell, right click on Windows Powershell, and
+# 1. Click on Search, type in PowerShell, right click on Windows Powershell, and
 # select "Run as Administrator".
 # 2. In the PowerShell Window, run the command:
 #
@@ -41,9 +42,9 @@
 # 9. Type python -V and press enter.
 # 10.You should receive a message that reads: Python 3.12.3
 #
-#
-# Install Chocolatey as Administrator:
-# https://community.chocolatey.org/courses/installation/installing
+# # Install Git
+# 11. If you do now have Git installed, run the command:
+# choco install git
 #
 # 
 ################################################################################
