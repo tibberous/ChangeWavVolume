@@ -46,5 +46,47 @@
 # 11. If you do now have Git installed, run the command:
 # choco install git
 #
-# 
+# You should receive the message:
+# git.install v2.44.0 [Approved]
+# git.install package files install completed. Performing other installation steps.
+# The package git.install wants to run 'chocolateyInstall.ps1'.
+# Note: If you don't run this script, the installation will fail.
+# Note: To confirm automatically next time, use '-y' or consider:
+# choco feature enable -n allowGlobalConfirmation
+# Do you want to run the script?([Y]es/[A]ll - yes to all/[N]o/[P]rint):
+#
+# 12. Type A and hit enter.
+#
+# # Get this repository with Git:
+# 13. Press (WindowsKey+R) to open the Run dialog.
+# 14. Type cmd and press Enter.
+# 15. Change the current working directory to where you want the repository
+# folder to be placed. (e.g. Type cd Desktop and press Enter)
+# 16. Run the command:
+# git clone https://github.com/tibberous/ChangeWavVolume.git
+# Allow it to finish, then change the current working directory to inside the
+# repository:
+# 17. Type "cd ChangeWavVolume" (without quotes) and press Enter.
+# # Install Python dependencies
+# 18. Run the command: pip install pydub
+# 19. Run the script with:
+# python lower.py
+# It should create new audio files in the output/ directory.
+#
+# ## DEBUGGING #################################################################
+# These install instructions were tested on a fresh install of
+# Microsoft Windows [Version 10.0.18362.30 using Oracle Virtualbox 7.0
+# if you receive any depenency errors while running the script, try the follow:
+# Run in Command Prompt:
+pip install ffprobe
+pip install ffmpeg
+pip install normalizer
+pip install ffmpeg-downloader
+pip install ffmpeg-python
+choco install ffmpeg
+# https://stackoverflow.com/questions/78388483/getting-warning-while-trying-to-change-the-volume-of-a-wav-file-in-python-on-win
+# ## Support ####################################################################
+# If you still have issues, please post the details on stackoverflow.com.
+#
+#
 ################################################################################
