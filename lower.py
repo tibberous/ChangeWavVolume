@@ -7,7 +7,8 @@ print(current_working_directory+"\n")
 
 all_files = os.listdir();
 
- 
+# set a positive value to increase wav volume and a negitive value to decrease it
+amplify = -16
 
 
 while len(all_files) > 0:
@@ -17,8 +18,8 @@ while len(all_files) > 0:
         absolute_path = os.getcwd()+"\\"+file
         print("Path: "+absolute_path+"\n")
         song = ass.from_wav(absolute_path)
-        song = song + (amplify := -16)
-        song.export('output\\'+file)
+        song = song + amplify
+        song.export('output\\'+file, format='wav')
 
 
 
